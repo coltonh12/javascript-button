@@ -1,4 +1,4 @@
 function clickotron() {
-    alert('clicked');
+    alert('pls work');
   }
 
