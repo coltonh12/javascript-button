@@ -1,9 +1,9 @@
 
 function clickotron() {
-    alert('pls work');
+    alert('click');
   }
 
-  const click = document.getElementById('click');
+  const click = document.getElementById('clickotron');
 
   click.addEventListener("click", (event) => {
     clickotron();
