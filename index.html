@@ -7,11 +7,10 @@
     <title>Yet another project</title>
     <link rel="stylesheet" href="screen.css">
     <script src="//unpkg.com/alpinejs" defer></script>
-    <script src="utilities.js"></script>
   </head>
   <body>
-  <div x-data="{name: ['Colton', 'beavus', 'todd', 'arnold', 'tim', 'greg', 'timothy', 'anna', 'sam', 'emi']}">
-    <button @click="alert(names[Math.floor(Math.random() * names.length)])">Alpine</button>
-  </div>
+    <div x-data="{ names: ['Colton', 'beavus', 'todd', 'arnold', 'tim', 'greg', 'timothy', 'anna', 'sam', 'emi'] }">
+      <button @click="alert(names[Math.floor(Math.random() * names.length)])">Alpine</button>
+    </div>
   </body>
 </html>
