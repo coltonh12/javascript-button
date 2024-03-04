@@ -11,7 +11,7 @@
   </head>
   <body>
   <div x-data="{name: ['Colton', 'beavus', 'todd', 'arnold', 'tim', 'greg', 'timothy', 'anna', 'sam', 'emi']}">
-    <button @click="alert(name[6])">Alphine</button>
+    <button @click="alert(names[Math.floor(Math.random() * names.length)])">Alpine</button>
   </div>
   </body>
 </html>
